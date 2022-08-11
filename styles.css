@@ -1,0 +1,45 @@
+html {
+    background: blue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.box {
+    margin: 5px;
+    display: grid;
+    float: left;
+    background: green;
+}
+
+#player-1-color,
+#player-2-color {
+    width: 100px;
+    height: 100px;
+    background: orange;
+    float: left;
+}
+
+.player {
+    height: 100px;
+}
+
+#player-1-color {
+    background-color: white;
+}
+
+#player-2-color {
+    background-color: black;
+}
+
+.players {
+    width: 100%
+}
